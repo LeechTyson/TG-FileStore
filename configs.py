@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Tyson_Files_2000_Bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001718561628"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1471883657"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://ymdkfnkmkgqsvz:df86936f6d700d8839829f5c5009656a2bcabef72284ff1975fa3f0ad5202072@ec2-34-225-168-136.compute-1.amazonaws.com:5432/d2kp8m5l2ud2r3")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://allampuri:CxFOjeuLIVLmY9cZ@cluster0.pzgpb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001773149136")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
